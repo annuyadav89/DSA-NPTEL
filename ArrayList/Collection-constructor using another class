@@ -1,0 +1,27 @@
+
+
+import java.util.*;
+import java.io.*;
+class Main{
+    public static void main(String args[])
+    { 
+        ArrayList<Integer>number = new ArrayList<Integer>();//declaring a number list using collection
+        number.add(50);
+         number.add(60);
+          number.add(70);
+           number.add(80);
+            number.add(90);
+             number.add(100);
+              System.out.print(number+" ");
+             System.out.println();
+
+             
+              ArrayList<Integer>numbers = new ArrayList<Integer>(number);//declaring another number list using collection
+              numbers.add(50);//add some numbers
+         numbers.add(60);
+          numbers.add(70);
+         
+           System.out.print(numbers+" ");
+
+    }
+}
